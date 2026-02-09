@@ -73,7 +73,8 @@ public class BasicRequestPractice {
 
         given().queryParam("key","qaclick123")
                 .body("{\n" +
-                        "    \"place_id\": \""+placeID+"\"\n" +
+                        "    \"place_id\": \""+placeID
+                        +"\"\n" +
                         "}")
                 .when().delete("maps/api/place/delete/json")
                 .then().assertThat().statusCode(200);
