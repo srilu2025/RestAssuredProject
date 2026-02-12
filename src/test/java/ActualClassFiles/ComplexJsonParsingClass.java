@@ -1,5 +1,6 @@
-package DataFiles;
+package ActualClassFiles;
 
+import DataFiles.Payload;
 import io.restassured.path.json.JsonPath;
 
 /**1. Print No of courses returned by API
@@ -14,7 +15,7 @@ import io.restassured.path.json.JsonPath;
 
  6. Verify if Sum of all Course prices matches with Purchase Amount*/
 
-public class ParsingJsonClass {
+public class ComplexJsonParsingClass {
 
     public static void main(String[] args){
 
